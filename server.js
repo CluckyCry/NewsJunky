@@ -1,6 +1,7 @@
 require('dotenv').config();
 // Variables
 const express = require('express')
+const fetch = require('node-fetch')
 const app = express()
 const PORT = process.env.PORT;
 const API_KEY = process.env.API_KEY;
